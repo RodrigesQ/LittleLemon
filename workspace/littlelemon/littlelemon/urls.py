@@ -25,10 +25,15 @@ router.register(r'tables', views.BookingViewSet)
 
 urlpatterns = [
    path('admin/', admin.site.urls),
+
    path('restaurant/', include('restaurant.urls')),
    path('restaurant/menu/',include('restaurant.urls')),
 
    # Include the API endpoints for the BookingViewSet under the 'restaurant/booking/' URL route.
    path('restaurant/booking/', include(router.urls)),
+
+   # Add Djoser URL routes for authentication
+    path('auth/', include('djoser.urls')),
+    path('auth/', include('djoser.urls.authtoken')),
 
 ]
