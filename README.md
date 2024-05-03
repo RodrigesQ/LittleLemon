@@ -96,7 +96,7 @@ Accessing Admin Panel
 
 Access the Django admin panel:
 
-http://127.0.0.1:8000/admin/
+/admin/
 
 Additional Setup (Optional)
 
@@ -106,15 +106,15 @@ Feel free to adjust and expand upon this template based on your specific project
 
 For testing:
 
-GET http://127.0.0.1:8000/restaurant/menu/items/
-POST http://127.0.0.1:8000/restaurant/menu/items/
-PUT http://localhost:8000/restaurant/menu/6/
-DELETE http://localhost:8000/restaurant/menu/7/
+GET /restaurant/menu/items/
+POST /restaurant/menu/items/
+PUT /restaurant/menu/6/
+DELETE /restaurant/menu/7/
 
-http://localhost:8000/restaurant/booking/
-http://localhost:8000/restaurant/booking/tables/
-http://127.0.0.1:8000/auth/token/logout/
-http://localhost:8000/restaurant/api-token-auth/
-http://127.0.0.1:8000/auth/token/login/
-http://127.0.0.1:8000/admin/
-http://localhost:8000/auth/users/
+/restaurant/booking/
+/restaurant/booking/tables/
+/auth/token/logout/
+/restaurant/api-token-auth/
+/auth/token/login/
+/admin/
+/auth/users/
