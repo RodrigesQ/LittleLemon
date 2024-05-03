@@ -103,3 +103,18 @@ Additional Setup (Optional)
 For additional setup instructions, please refer to the provided documentation and configuration steps.
 
 Feel free to adjust and expand upon this template based on your specific project requirements.
+
+For testing:
+
+GET http://127.0.0.1:8000/restaurant/menu/items/
+POST http://127.0.0.1:8000/restaurant/menu/items/
+PUT http://localhost:8000/restaurant/menu/6/
+DELETE http://localhost:8000/restaurant/menu/7/
+
+http://localhost:8000/restaurant/booking/
+http://localhost:8000/restaurant/booking/tables/
+http://127.0.0.1:8000/auth/token/logout/
+http://localhost:8000/restaurant/api-token-auth/
+http://127.0.0.1:8000/auth/token/login/
+http://127.0.0.1:8000/admin/
+http://localhost:8000/auth/users/
