@@ -23,7 +23,6 @@ class Booking(models.Model):
     def __str__(self):
         return f"Booking for {self.name} on {self.bookingdate}"
 
-from django.db import models
 
 class MenuItem(models.Model):
     title = models.CharField(max_length=255)
